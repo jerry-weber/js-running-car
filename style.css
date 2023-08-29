@@ -1,0 +1,40 @@
+/* Resetting default margin and padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for the car container with background */
+#car {
+  background: url("/IMG/road.jpg");
+  width: 100vw; /* Set the width to the full viewport width */
+}
+
+/* Styling for the scene container with background */
+#scene {
+  background: url("/IMG/side.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 100vh;
+  
+}
+
+/* Styling for the buttons */
+#startBtn, #stopBtn {
+  width: 150px;
+  height: 75px;
+  background-color: yellow;
+  font-size: 20px;
+  margin: 20px;
+ 
+}
+
+/* Styling for the button container */
+#bdiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 40vh;
+}
+
